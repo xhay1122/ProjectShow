@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+		sans-serif;
+	line-height: 1.2em;
+	background-color: #f3f3f3;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: 0px 0px;
+	color: #444;
+	height: 100%;
+	width: auto;
+}
+
+#wrapper {
+	/*max-width: 700px;*/
+	width: 80%;
+	margin: 10px auto 30px;
+	padding: 60px;
+	background: #fff;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+	position: relative;
+}
+
+.sectionHead {
+	clear: both;
+	font: bold 20px/12px 'verdana', sans-serif;
+	margin: 20px -60px 10px;
+	border-left: 52px solid #444;
+	color: #444;
+	padding: 1px 0 0 8px;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.sectionHead:before {
+	content: "";
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: -105px;
+	top: -15px;
+	background-image: url(./icons.png);
+}
+
+.sec h2 {
+	font-size: 15px;
+	font-weight: normal;
+}
+
+#title:before {
+	background-position: left top;
+}
+
+#time:before {
+	background-position: -45px top;
+}
+
+#person:before {
+	background-position: -90px bottom;
+}
+
+#content:before {
+	background-position: -90px top;
+}
+
+#Head {
+	position: fixed;
+	left: 0;
+	right: 0;
+	background: #fff;
+	background: rgba(255, 255, 255, .98);
+	height: 55px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+	z-index: 1000;
+}
+
+#Head .sectionHead {
+	border: none;
+	margin: 0 0 0 50px;
+	line-height: 55px;
+	padding: 0 0 0 8px;
+}
+
+#Head .sectionHead:before {
+	left: -40px;
+	top: 5px;
+}
+
+.navBtn {
+	top: 10px;
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	background-color: #444;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.navBtn a {
+	color: #fff;
+	font: 15px sans-serif;
+	text-decoration: none;
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+}
+
+#next{
+	right: 15px;
+}
+
+#preview{
+	right: 100px;
+}
+
+.info{
+	overflow:auto;
+}
+
+.des_word{
+	text-indent: 32px;
+}
+
+.des_img{
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.des_img img{
+	width: 99%;
+  	border: 1px solid #E5E5E5;
+}
+
+.des_img p{
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.moblie{
+	width: 50%;
+}
